@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100%;
+    font-family: 'Fira Sans', sans-serif;
+    color: #6d6875;
+    background-color: #f0efeb;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    padding: 100px 175px;
+}
+
+h1 {
+    font-size: 34px;
+    line-height: 47.6px;
+    margin-bottom: 60px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+div#habilidades {
+    margin-bottom: 60px;
+}
+
+#habilidades p {
+    margin-bottom: 10px;
+}
+
+#habilidades h2 {
+    margin-bottom: 25px;
+}
+
+#habilidades span {
+    font-weight: bold;
+}
+
+#contato div {
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+    align-items: center;
+}
+
+#contato div a {
+    text-decoration: none;
+    color: #6d6875;
+    margin: 0 5px;
+}
+
+#contato h2 {
+    margin-bottom: 25px;
+}
+
+#contato div a:hover {
+    color: white;
+    background-color: #6d6875;
+    padding: 1px 2px;
+    transition-duration: 0.3s;
+}
